@@ -15,4 +15,7 @@
   (lib (name RF_Connectors)(type KiCad)(uri ${KISYSMOD}/Connectors/RF_Connectors/RF_Connectors.pretty)(options "")(descr ""))
   (lib (name Capacitors_Smd_1206)(type KiCad)(uri ${KISYSMOD}/Capacitors/Smd_1206/Capacitors_Smd_1206.pretty)(options "")(descr ""))
   (lib (name EByte)(type KiCad)(uri ${KISYS3DMOD}/LoraWan/EByte/EByte.pretty)(options "")(descr ""))
+  (lib (name Temperature_Sensors)(type KiCad)(uri ${KISYS3DMOD}/Temperature_Sensors/Temperature_Sensors.pretty)(options "")(descr ""))
+  (lib (name NTC_Thermistors)(type KiCad)(uri ${KISYS3DMOD}/NTC_Thermistors/NTC_Thermistors.pretty)(options "")(descr ""))
+  (lib (name Tag_Connectors)(type KiCad)(uri ${KISYS3DMOD}/Connectors/Tag_Connectors/Tag_Connectors.pretty)(options "")(descr ""))
 )

@@ -21,4 +21,7 @@
   (lib (name Capacitors_Smd1206)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Capacitors/Smd_1206/Capacitors_Smd1206.lib)(options "")(descr ""))
   (lib (name Capacitors_Smd0603)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Capacitors/Smd_0603/Capacitors_Smd0603.lib)(options "")(descr ""))
   (lib (name EByte)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/LoraWan/EByte/EByte.lib)(options "")(descr ""))
+  (lib (name Temperature_Sensors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Temperature_Sensors/Temperature_Sensors.lib)(options "")(descr ""))
+  (lib (name NTC_Thermistors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/NTC_Thermistors/NTC_Thermistors.lib)(options "")(descr ""))
+  (lib (name Tag_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Tag_Connectors/Tag_Connectors.lib)(options "")(descr ""))
 )

@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/mw/hardware_projects/lora-node-e78-868ln22s-minipci/lorawan_e78-868ln22s_minipci.sch</source>
+    <date>czw, 21 sty 2021, 11:25:38</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Lorawan Node based on  E78-868LN22S</title>
+        <company>Embedded System Labs</company>
+        <rev>V1.0</rev>
+        <date>2021-01-10</date>
+        <source>lorawan_e78-868ln22s_minipci.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Con1">
+      <value>MiniPci</value>
+      <footprint>Mpcie:mpcie-full-card</footprint>
+      <libsource lib="Mpcie" part="MiniPci" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C36032C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>IP4220CZ6</value>
+      <footprint>ESD_Protectors:IP4220CZ6_SOT457</footprint>
+      <datasheet>ESD_Protectors/Components_Documentation/IP4220CZ6.pdf</datasheet>
+      <libsource lib="esd_protectors" part="IP4220CZ6" description="Dual USB 2.0 integrated ESD protection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4BF2CA</tstamp>
+    </comp>
+    <comp ref="Module1">
+      <value>E78-868LN22S</value>
+      <footprint>EByte:E78-868LN22S</footprint>
+      <datasheet>http://www.ebyte.com/en/product-view-news.aspx?id=770</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">EByte</field>
+        <field name="Manufacturer Part Number">E78-868LN22S</field>
+        <field name="Package"> 20x14x2.8 mm</field>
+        <field name="Price@1000pcs">10</field>
+        <field name="Price@1pc">16</field>
+        <field name="Supplier">Aliexpress</field>
+        <field name="Supplier Part Number">E78-868LN22S</field>
+        <field name="URL">https://pl.aliexpress.com/item/4000360565940.html?spm=a2g0s.9042311.0.0.57c85c0fisQX5n</field>
+      </fields>
+      <libsource lib="EByte" part="E78-868LN22S" description="Lora module based on ASR6501, 850-925MHz, 21dBm, 20* 14*2.8 mm, 1.2g±0.1g"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60060CE9</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>RF2-03E-T-00-50-G</value>
+      <footprint>RF_Connectors:RF2-03E-T-00-50-G</footprint>
+      <datasheet>Connectors/RF_Connectors/Components_Documentation/RF2-03E-T-00-50-G.pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="Manufacturer">ADAM TECH</field>
+        <field name="Manufacturer Part Number">RF2-03E-T-00-50-G</field>
+        <field name="Package">RF2-03E-T-00-50-G</field>
+        <field name="Price@1000pcs">3,62</field>
+        <field name="Price@1pc">5,70</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">RF2-03E-T-00-50-G</field>
+        <field name="URL">https://www.tme.eu/pl/details/rf2-03e-t-00-50-g/zlacza-sma-smb-smc/adam-tech/</field>
+      </fields>
+      <libsource lib="RF_Connectors" part="RF2-03E-T-00-50-G" description="Adam Tech SMA Jack Right Angle THT Connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60062A31</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n_50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="" part="100n_50V" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C42D2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_Smd_0603:10k_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0103T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01111</field>
+        <field name="Price@1pc">0,04560</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-10K</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="10k" description="10kΩ 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F34EB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n_50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="" part="100n_50V" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F7656</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TCN75A</value>
+      <footprint>Temperature_Sensors:TCN75A_SOIC8</footprint>
+      <datasheet>Temperature_Sensors/Components_Documentation/TCN75A_21935D.pdf</datasheet>
+      <libsource lib="Temperature_Sensors" part="TCN75A" description="2-Wire Serial Temperature Sensor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60096326</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <footprint>Resistor_Smd_0603:4k7_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF4701T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01271</field>
+        <field name="Price@1pc">0,04698</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">	SMD0603-4K7-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="4k7" description="4.7kΩ 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600B7CB7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistor_Smd_0603:4k7_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF4701T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01271</field>
+        <field name="Price@1pc">0,04698</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">	SMD0603-4K7-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="4k7" description="4.7kΩ 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600B82AD</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4k7</value>
+      <footprint>Resistor_Smd_0603:4k7_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF4701T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01271</field>
+        <field name="Price@1pc">0,04698</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">	SMD0603-4K7-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="4k7" description="4.7kΩ 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C4C3E</tstamp>
+    </comp>
+    <comp ref="NTC1">
+      <value>NTCS0603E3103FMT</value>
+      <footprint>NTC_Thermistors:NTCS0603E3103FMT</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811131630_TDK-NTCG163JF103FT1_C76589.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C76589</field>
+        <field name="Manufacturer">TDK/SR PASSIVES</field>
+        <field name="Manufacturer Part Number">NTCG163JF103FT1</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,4261</field>
+        <field name="Price@10pcs">0,9687</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">NTC0603-10K-B1</field>
+        <field name="URL">https://www.tme.eu/pl/details/ntc0603-10k-b1/termistory-ntc-pomiarowe-smd/sr-passives/</field>
+      </fields>
+      <libsource lib="NTC_Thermistors" part="NTCS0603E3103FMT" description="SMD 0603 NTC 10k 1% Thermistor 3435K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600CAFD7</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DS18B20U</value>
+      <footprint>Temperature_Sensors:DS18B20U_MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>Temperature_Sensors/Components_Documentation/DS18B20.pdf</datasheet>
+      <libsource lib="Temperature_Sensors" part="DS18B20U" description="Programmable Resolution 1-Wire Digital Thermometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D6F12</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_Smd_0603:4k7_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF4701T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01271</field>
+        <field name="Price@1pc">0,04698</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">	SMD0603-4K7-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="4k7" description="4.7kΩ 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DD7EA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n_50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="" part="100n_50V" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011B1E1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n_50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="" part="100n_50V" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012B0BA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>Resistor_Smd_0603:0R_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="0R" description="0Ω 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600ED61B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Resistor_Smd_0603:0R_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="0R" description="0Ω 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600EE5B0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>Resistor_Smd_0603:0R_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="0R" description="0Ω 0,1W ±5% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600EFF14</tstamp>
+    </comp>
+    <comp ref="Con2">
+      <value>TC2050-IDC-NL</value>
+      <footprint>Tag_Connectors:TC2050-IDC-NL</footprint>
+      <datasheet>C:/Wiktor/KiCad/KiCadWolowik/Schematic/Connectors/Tag_Connectors/Components_Documentation/TC2050-IDC-NL.pdf</datasheet>
+      <libsource lib="Tag_Connectors" part="TC2050-IDC-NL" description="10-Pin Contact Tag Connector for Programming/Debugging with no Legs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FD1A6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Capacitors_Smd0603_100n_50V">
+      <footprints>
+        <fp>100nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitors_Smd0603_100n_50V</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EByte" part="E78-868LN22S">
+      <description>Lora module based on ASR6501, 850-925MHz, 21dBm, 20* 14*2.8 mm, 1.2g±0.1g</description>
+      <docs>http://www.ebyte.com/en/product-view-news.aspx?id=770</docs>
+      <footprints>
+        <fp>E78-868LN22S</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Module</field>
+        <field name="Value">E78-868LN22S</field>
+        <field name="Manufacturer">EByte</field>
+        <field name="Manufacturer Part Number">E78-868LN22S</field>
+        <field name="Supplier">Aliexpress</field>
+        <field name="Supplier Part Number">E78-868LN22S</field>
+        <field name="URL">https://pl.aliexpress.com/item/4000360565940.html?spm=a2g0s.9042311.0.0.57c85c0fisQX5n</field>
+        <field name="Price@1pc">16</field>
+        <field name="Price@1000pcs">10</field>
+        <field name="Developer">MW</field>
+        <field name="Package"> 20x14x2.8 mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SETB" type="input"/>
+        <pin num="4" name="DIO1" type="BiDi"/>
+        <pin num="5" name="BUSY" type="BiDi"/>
+        <pin num="6" name="I2C_SDA" type="BiDi"/>
+        <pin num="7" name="I2C_SCL" type="BiDi"/>
+        <pin num="8" name="UART_CTS" type="BiDi"/>
+        <pin num="9" name="UART_RTS" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="ANT" type="BiDi"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XRES" type="input"/>
+        <pin num="17" name="ADC_IN" type="input"/>
+        <pin num="18" name="AUX" type="BiDi"/>
+        <pin num="19" name="SETA" type="BiDi"/>
+        <pin num="20" name="UART_RX" type="BiDi"/>
+        <pin num="21" name="UART_TX" type="BiDi"/>
+        <pin num="22" name="SWD_DATA" type="BiDi"/>
+        <pin num="23" name="SWD_CLK" type="BiDi"/>
+        <pin num="24" name="GND" type="power_in"/>
+        <pin num="25" name="SPI_MISO" type="BiDi"/>
+        <pin num="26" name="SPI_NSS" type="BiDi"/>
+        <pin num="27" name="SPI_MOSI" type="BiDi"/>
+        <pin num="28" name="SPI_SCK" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mpcie" part="MiniPci">
+      <fields>
+        <field name="Reference">Con</field>
+        <field name="Value">MiniPci</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MICP" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="MICN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="EAR_P" type="output"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="EAR_N" type="output"/>
+        <pin num="8" name="USIM_VDD" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="USIM_DATA" type="BiDi"/>
+        <pin num="11" name="UART_CTS" type="output"/>
+        <pin num="12" name="USIM_CLK" type="input"/>
+        <pin num="13" name="UART_RTS" type="input"/>
+        <pin num="14" name="USIM_RST" type="input"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="USIM_DET" type="output"/>
+        <pin num="17" name="UART_RXD" type="input"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="UART_TXD" type="output"/>
+        <pin num="20" name="~W_DISABLE" type="BiDi"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="~PERST" type="output"/>
+        <pin num="23" name="NC" type="NotConnected"/>
+        <pin num="24" name="NC" type="NotConnected"/>
+        <pin num="25" name="NC" type="NotConnected"/>
+        <pin num="26" name="GND" type="power_in"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="NC" type="NotConnected"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="SCL" type="output"/>
+        <pin num="31" name="NC" type="NotConnected"/>
+        <pin num="32" name="SDA" type="BiDi"/>
+        <pin num="33" name="NC" type="NotConnected"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="USB_D-" type="BiDi"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="USB_D+" type="BiDi"/>
+        <pin num="39" name="VCC" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="VCC" type="power_in"/>
+        <pin num="42" name="LED_WWAN" type="output"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GPIO0" type="BiDi"/>
+        <pin num="45" name="NC" type="NotConnected"/>
+        <pin num="46" name="GPIO1" type="BiDi"/>
+        <pin num="47" name="NC" type="NotConnected"/>
+        <pin num="48" name="NC" type="NotConnected"/>
+        <pin num="49" name="NC" type="NotConnected"/>
+        <pin num="50" name="GND" type="power_in"/>
+        <pin num="51" name="NC" type="NotConnected"/>
+        <pin num="52" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NTC_Thermistors" part="NTCS0603E3103FMT">
+      <description>SMD 0603 NTC 10k 1% Thermistor 3435K</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/1811131630_TDK-NTCG163JF103FT1_C76589.pdf</docs>
+      <footprints>
+        <fp>NTCS0603E3103FMT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NTC</field>
+        <field name="Value">NTCS0603E3103FMT</field>
+        <field name="Manufacturer">TDK/SR PASSIVES</field>
+        <field name="Manufacturer Part Number">NTCG163JF103FT1</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">NTC0603-10K-B1</field>
+        <field name="URL">https://www.tme.eu/pl/details/ntc0603-10k-b1/termistory-ntc-pomiarowe-smd/sr-passives/</field>
+        <field name="Price@10pcs">0,9687</field>
+        <field name="Price@1000pcs">0,4261</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C76589</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Connectors" part="RF2-03E-T-00-50-G">
+      <description>Adam Tech SMA Jack Right Angle THT Connector</description>
+      <docs>Connectors/RF_Connectors/Components_Documentation/RF2-03E-T-00-50-G.pdf</docs>
+      <footprints>
+        <fp>RF2-03E-T-00-50-G</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">RF2-03E-T-00-50-G</field>
+        <field name="Manufacturer">ADAM TECH</field>
+        <field name="Manufacturer Part Number">RF2-03E-T-00-50-G</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">RF2-03E-T-00-50-G</field>
+        <field name="URL">https://www.tme.eu/pl/details/rf2-03e-t-00-50-g/zlacza-sma-smb-smc/adam-tech/</field>
+        <field name="Price@1pc">5,70</field>
+        <field name="Price@1000pcs">3,62</field>
+        <field name="Developer">WP</field>
+        <field name="Package">RF2-03E-T-00-50-G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SIGNAL" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="0R">
+      <description>0Ω 0,1W ±5% -55...155°C</description>
+      <docs>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</docs>
+      <footprints>
+        <fp>0R_0603</fp>
+        <fp>0R_pcb_0603_fashion</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0R</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="10k">
+      <description>10kΩ 0,1W ±5% -55...155°C</description>
+      <docs>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</docs>
+      <footprints>
+        <fp>10k_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0103T5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-10K</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/</field>
+        <field name="Price@1pc">0,04560</field>
+        <field name="Price@1000pcs">0,01111</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="4k7">
+      <description>4.7kΩ 0,1W ±5% -55...155°C</description>
+      <docs>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</docs>
+      <footprints>
+        <fp>4k7_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4k7</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF4701T5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">	SMD0603-4K7-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Price@1pc">0,04698</field>
+        <field name="Price@1000pcs">0,01271</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tag_Connectors" part="TC2050-IDC-NL">
+      <description>10-Pin Contact Tag Connector for Programming/Debugging with no Legs</description>
+      <docs>C:/Wiktor/KiCad/KiCadWolowik/Schematic/Connectors/Tag_Connectors/Components_Documentation/TC2050-IDC-NL.pdf</docs>
+      <footprints>
+        <fp>TC2050-IDC-NL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Con</field>
+        <field name="Value">TC2050-IDC-NL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Temperature_Sensors" part="DS18B20U">
+      <description>Programmable Resolution 1-Wire Digital Thermometer</description>
+      <docs>Temperature_Sensors/Components_Documentation/DS18B20.pdf</docs>
+      <footprints>
+        <fp>DS18B20U_MSOP-8_3x3mm_P0.65mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS18B20U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DQ" type="BiDi"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="N" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Temperature_Sensors" part="TCN75A">
+      <description>2-Wire Serial Temperature Sensor</description>
+      <docs>Temperature_Sensors/Components_Documentation/TCN75A_21935D.pdf</docs>
+      <footprints>
+        <fp>TCN75A_SOIC8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCN75A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="ALERT" type="output"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="A2" type="input"/>
+        <pin num="6" name="A1" type="input"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="esd_protectors" part="IP4220CZ6">
+      <description>Dual USB 2.0 integrated ESD protection</description>
+      <docs>ESD_Protectors/Components_Documentation/IP4220CZ6.pdf</docs>
+      <footprints>
+        <fp>IP4220CZ6_SOT457</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IP4220CZ6</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">	IP4220CZ6.125</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">IP4220CZ6</field>
+        <field name="URL">https://www.tme.eu/pl/details/ip4220cz6/diody-zabezpieczajace-drabinki/nexperia/ip4220cz6-125/</field>
+        <field name="Price@1pc">0,8592</field>
+        <field name="Price@1000pcs">0,3364</field>
+        <field name="Developer">WP</field>
+        <field name="Package">SC-74</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="I/O2" type="input"/>
+        <pin num="4" name="I/O3" type="input"/>
+        <pin num="5" name="Vp" type="power_in"/>
+        <pin num="6" name="I/O4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="EByte">
+      <uri>/home/mw/kicad_library/Schematic//LoraWan/EByte/EByte.lib</uri>
+    </library>
+    <library logical="Mpcie">
+      <uri>/home/mw/kicad_library/Schematic//Mpcie/Mpcie.lib</uri>
+    </library>
+    <library logical="NTC_Thermistors">
+      <uri>/home/mw/kicad_library/Schematic//NTC_Thermistors/NTC_Thermistors.lib</uri>
+    </library>
+    <library logical="RF_Connectors">
+      <uri>/home/mw/kicad_library/Schematic//Connectors/RF_Connectors/RF_Connectors.lib</uri>
+    </library>
+    <library logical="Resistors_Smd0603">
+      <uri>/home/mw/kicad_library/Schematic//Resistors/Smd_0603/Resistors_Smd0603.lib</uri>
+    </library>
+    <library logical="Tag_Connectors">
+      <uri>/home/mw/kicad_library/Schematic//Connectors/Tag_Connectors/Tag_Connectors.lib</uri>
+    </library>
+    <library logical="Temperature_Sensors">
+      <uri>/home/mw/kicad_library/Schematic//Temperature_Sensors/Temperature_Sensors.lib</uri>
+    </library>
+    <library logical="esd_protectors">
+      <uri>/home/mw/kicad_library/Schematic//ESD_Protectors/esd_protectors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Con2" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Module1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Con1" pin="39"/>
+      <node ref="Con1" pin="41"/>
+      <node ref="U8" pin="5"/>
+      <node ref="Con1" pin="52"/>
+      <node ref="Con1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R3" pin="1"/>
+      <node ref="NTC1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Con1" pin="37"/>
+      <node ref="Con1" pin="21"/>
+      <node ref="Con1" pin="35"/>
+      <node ref="Con1" pin="4"/>
+      <node ref="Con1" pin="29"/>
+      <node ref="Con1" pin="40"/>
+      <node ref="Con1" pin="27"/>
+      <node ref="Con1" pin="26"/>
+      <node ref="Con1" pin="43"/>
+      <node ref="Con1" pin="50"/>
+      <node ref="Con1" pin="18"/>
+      <node ref="Con1" pin="15"/>
+      <node ref="U8" pin="2"/>
+      <node ref="Con1" pin="34"/>
+      <node ref="Con1" pin="9"/>
+      <node ref="Module1" pin="12"/>
+      <node ref="P1" pin="2"/>
+      <node ref="Module1" pin="15"/>
+      <node ref="Module1" pin="14"/>
+      <node ref="Module1" pin="13"/>
+      <node ref="Module1" pin="10"/>
+      <node ref="Module1" pin="1"/>
+      <node ref="Con2" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Module1" pin="24"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="3" name="Net-(Module1-Pad7)">
+      <node ref="U2" pin="2"/>
+      <node ref="Module1" pin="7"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Module1-Pad6)">
+      <node ref="Module1" pin="6"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Module1-Pad17)">
+      <node ref="NTC1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="Module1" pin="17"/>
+    </net>
+    <net code="6" name="Net-(Con2-Pad6)">
+      <node ref="Module1" pin="23"/>
+      <node ref="Con2" pin="6"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="7" name="Net-(Con1-Pad13)">
+      <node ref="Module1" pin="21"/>
+      <node ref="U8" pin="3"/>
+      <node ref="Con1" pin="13"/>
+    </net>
+    <net code="8" name="Net-(Con1-Pad16)">
+      <node ref="Con1" pin="16"/>
+    </net>
+    <net code="9" name="Net-(Con1-Pad14)">
+      <node ref="Con1" pin="14"/>
+    </net>
+    <net code="10" name="Net-(Con1-Pad8)">
+      <node ref="Con1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(Con2-Pad9)">
+      <node ref="Con2" pin="9"/>
+    </net>
+    <net code="13" name="Net-(Con2-Pad8)">
+      <node ref="Con2" pin="8"/>
+    </net>
+    <net code="14" name="Net-(Con2-Pad5)">
+      <node ref="Con2" pin="5"/>
+    </net>
+    <net code="15" name="Net-(Con2-Pad2)">
+      <node ref="Con2" pin="2"/>
+    </net>
+    <net code="16" name="Net-(Con2-Pad10)">
+      <node ref="Module1" pin="22"/>
+      <node ref="U8" pin="4"/>
+      <node ref="Con2" pin="10"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Con2-Pad1)">
+      <node ref="Con2" pin="1"/>
+    </net>
+    <net code="18" name="Net-(Con1-Pad22)">
+      <node ref="Con1" pin="22"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="19" name="Net-(Con1-Pad12)">
+      <node ref="Con1" pin="12"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="20" name="Net-(Con1-Pad10)">
+      <node ref="Con1" pin="10"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="21" name="Net-(Module1-Pad4)">
+      <node ref="Module1" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(Con1-Pad30)">
+      <node ref="Con1" pin="30"/>
+    </net>
+    <net code="28" name="Net-(Con1-Pad32)">
+      <node ref="Con1" pin="32"/>
+    </net>
+    <net code="29" name="Net-(Con1-Pad44)">
+      <node ref="Con1" pin="44"/>
+    </net>
+    <net code="30" name="Net-(Con1-Pad46)">
+      <node ref="Con1" pin="46"/>
+    </net>
+    <net code="31" name="Net-(Con1-Pad1)">
+      <node ref="Con1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(Con1-Pad3)">
+      <node ref="Con1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(Con1-Pad5)">
+      <node ref="Con1" pin="5"/>
+    </net>
+    <net code="34" name="Net-(Con1-Pad7)">
+      <node ref="Con1" pin="7"/>
+    </net>
+    <net code="35" name="Net-(Con1-Pad31)">
+      <node ref="Con1" pin="31"/>
+    </net>
+    <net code="36" name="Net-(Con1-Pad28)">
+      <node ref="Con1" pin="28"/>
+    </net>
+    <net code="37" name="Net-(Con1-Pad25)">
+      <node ref="Con1" pin="25"/>
+    </net>
+    <net code="38" name="Net-(Con1-Pad24)">
+      <node ref="Con1" pin="24"/>
+    </net>
+    <net code="39" name="Net-(Con1-Pad23)">
+      <node ref="Con1" pin="23"/>
+    </net>
+    <net code="40" name="Net-(Con1-Pad33)">
+      <node ref="Con1" pin="33"/>
+    </net>
+    <net code="41" name="Net-(Con1-Pad19)">
+      <node ref="Con1" pin="19"/>
+    </net>
+    <net code="42" name="Net-(Con1-Pad17)">
+      <node ref="Con1" pin="17"/>
+    </net>
+    <net code="43" name="Net-(Con1-Pad6)">
+      <node ref="Con1" pin="6"/>
+    </net>
+    <net code="44" name="Net-(Con1-Pad51)">
+      <node ref="Con1" pin="51"/>
+    </net>
+    <net code="45" name="Net-(Con1-Pad49)">
+      <node ref="Con1" pin="49"/>
+    </net>
+    <net code="46" name="Net-(Con1-Pad48)">
+      <node ref="Con1" pin="48"/>
+    </net>
+    <net code="47" name="Net-(Con1-Pad47)">
+      <node ref="Con1" pin="47"/>
+    </net>
+    <net code="48" name="Net-(Con1-Pad45)">
+      <node ref="Con1" pin="45"/>
+    </net>
+    <net code="49" name="Net-(Con1-Pad42)">
+      <node ref="Con1" pin="42"/>
+    </net>
+    <net code="50" name="Net-(Con1-Pad38)">
+      <node ref="Con1" pin="38"/>
+    </net>
+    <net code="51" name="Net-(Con1-Pad36)">
+      <node ref="Con1" pin="36"/>
+    </net>
+    <net code="52" name="Net-(Module1-Pad5)">
+      <node ref="Module1" pin="5"/>
+    </net>
+    <net code="53" name="Net-(Module1-Pad8)">
+      <node ref="Module1" pin="8"/>
+    </net>
+    <net code="54" name="Net-(Module1-Pad9)">
+      <node ref="Module1" pin="9"/>
+    </net>
+    <net code="55" name="Net-(Module1-Pad18)">
+      <node ref="Module1" pin="18"/>
+    </net>
+    <net code="56" name="Net-(Module1-Pad19)">
+      <node ref="Module1" pin="19"/>
+    </net>
+    <net code="57" name="Net-(C1-Pad1)">
+      <node ref="Con2" pin="7"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Module1" pin="16"/>
+    </net>
+    <net code="58" name="Net-(Con1-Pad11)">
+      <node ref="Module1" pin="20"/>
+      <node ref="Con1" pin="11"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="59" name="Net-(Con1-Pad20)">
+      <node ref="Module1" pin="3"/>
+      <node ref="Con1" pin="20"/>
+    </net>
+    <net code="60" name="Net-(Module1-Pad25)">
+      <node ref="Module1" pin="25"/>
+    </net>
+    <net code="61" name="Net-(Module1-Pad26)">
+      <node ref="Module1" pin="26"/>
+    </net>
+    <net code="62" name="Net-(Module1-Pad27)">
+      <node ref="Module1" pin="27"/>
+    </net>
+    <net code="63" name="Net-(Module1-Pad28)">
+      <node ref="Module1" pin="28"/>
+    </net>
+    <net code="64" name="Net-(Module1-Pad11)">
+      <node ref="P1" pin="1"/>
+      <node ref="Module1" pin="11"/>
+    </net>
+  </nets>
+</export>

@@ -1,4 +1,4 @@
-860799144244235
+872059758029190
 74xx
 74AHC1G14GV,125
 Buffer
@@ -966,6 +966,13 @@ Led Diode SMD
 2
 2
 Diodes
+HSMF-C155
+Red/Green Diode
+LED Diode
+0
+4
+4
+Diodes
 HSMG-C680
 
 
@@ -1592,6 +1599,13 @@ Inductors
 742792515
 Ferrite Beads WE-CBF 1812 SMD Bead 100MHz 785Ohm 3A
 SMD Inductor
+0
+2
+2
+Inductors
+74479776247A
+4.7uH 1.2A Wurth
+
 0
 2
 2
@@ -2239,6 +2253,27 @@ mpci, pci, pci express
 0
 60
 52
+NTC_Thermistors
+B57230V2103F260
+
+capacitor 0402
+0
+2
+2
+NTC_Thermistors
+NCP21WB473J03RA
+
+Resistor
+0
+2
+2
+NTC_Thermistors
+NTCS0603E3103FMT
+
+
+0
+2
+2
 RF_Connectors
 RF2-03E-T-00-50-G
 
@@ -2703,6 +2738,13 @@ Resistor
 2
 Resistor_Smd_0603
 36k5_0603
+Vishay SMD SM0603
+Resistor
+0
+2
+2
+Resistor_Smd_0603
+36k_0603
 Vishay SMD SM0603
 Resistor
 0
@@ -3205,27 +3247,6 @@ Antenna Connector SMD
 0
 3
 2
-Smd_Connectors
-Usb_C_12401548E4-2A
-USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
-USB C Type-C Receptacle Hybrid
-0
-28
-25
-Smd_Connectors
-Usb_Micro
-Usb Micro
-Smd Connector
-0
-9
-6
-Smd_Connectors
-Usb_Mini
-Usb Mini
-Smd Connector
-0
-11
-6
 Smd_Tantal
 1uF_35V_B_Tantal
 1uF_35V_B
@@ -3317,6 +3338,34 @@ capacitor tantalum
 0
 2
 2
+Tag_Connectors
+TC2050-IDC
+
+
+0
+10
+10
+Tag_Connectors
+TC2050-IDC-NL
+
+
+0
+10
+10
+Temperature_Sensors
+DS18B20U_MSOP-8_3x3mm_P0.65mm
+8-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Temperature_Sensors
+TCN75A_SOIC8
+
+Temperature Sensor
+0
+8
+8
 Transistor_Bipolar
 2SB772_TO126H
 PNP Transistor
