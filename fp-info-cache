@@ -1,4 +1,4 @@
-1131613170404493
+1119369643931513
 74xx
 74AHC1G14GV,125
 Buffer
@@ -4670,7 +4670,7 @@ Bipolar Transistor
 3
 Transistor_Bipolar
 ULN2803A
-
+SOIC (18) 
 Transistor Array
 0
 18

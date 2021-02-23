@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -34,7 +34,6 @@
       4,
       5,
       6,
-      7,
       8,
       9,
       10,
@@ -58,16 +57,18 @@
       28,
       29,
       30,
-      31,
-      39,
-      40
+      32,
+      33,
+      34,
+      35,
+      36
     ],
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
     "filename": "lorawan_e78-868ln22s_minipci.kicad_prl",
-    "version": 2
+    "version": 3
   },
   "project": {
     "files": []
